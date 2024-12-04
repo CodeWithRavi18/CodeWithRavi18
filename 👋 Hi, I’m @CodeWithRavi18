@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Css Borders</title>
+  <style>
+  body{
+    background-color:gray;
+  }
+    #main{
+       text-align:center;
+      color:aqua;
+     font-family:cursive;
+     text-shadow:6px 6px 9px black;
+    }
+     p{
+       text-shadow:none;
+        font-family:sans;
+       border-width:bold;
+     }
+    .normal{
+      border:2px solid red;
+      color:orange;
+    }
+  .dashed{
+    border:dashed;
+    border-color:purple;
+    color:blue;
+  }
+   .dotted{
+      border:dotted;
+     border-color:white;
+     color:black;
+   }
+   .double{
+      border:double maroon;
+     color:red;
+   }
+  .groove{
+    border:10px groove pink;
+    color: green;
+  }
+   .ridge{
+     border:10px ridge blue;
+     color:brown;
+   }
+   .inset{
+     border:10px inset teal;
+     color:#00D9A5;
+   }
+    .outset{
+     border:10px outset #AFFF33;
+     color:#F7F6F2;
+   }
+  </style>
+</head>
+<body>
+  <h1 id="main">Different Types of Borders</h>
+  <p class="normal">Hello I am Normal Border</p>
+  <p class="dashed">Hello I am Dashed Border</p>
+  <p class="dotted">Hello I am Dotted Border</p>
+  <p class="double">Hello I am Double Border</p>
+  <p class="groove">Hello I am Groove Border</p>
+  <p class="ridge">Hello I am Ridge Border</p>
+  <p class="inset">Hello I am Inset Border</p>
+  <p class="outset">Hello I am Outset Border</p>
+</body>
+</html>
 

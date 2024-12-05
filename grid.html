@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Css Grid</title>
+  <style>
+    #container{
+       border:1px solid black;
+      width:60pw;
+        height:50vh;
+       display:grid;
+      padding:14px;
+      background-color:green;
+      /*grid-template-columns:100px 100px;*/
+      grid-template-columns:1fr 1fr 1fr;
+      /*grid-teplate-row:110px 110px;*/
+       /*justify-content:end;*/
+       /* justify-content:center;*/
+       /*justify-items:end;*/
+        /*justify-items:center;*/
+      /*align-content:end;*/
+         /*align-content:center;*/
+      /*align-content:space-between;*/
+        /*align-content:space-around;*/
+       /*align-items:end;*/
+        /*align-items:center;*/
+      gap:40px;
+    }
+     .item{
+        border:2px solid red;
+       font-size:2em;
+       color:white;
+        border-style:dotted;
+       background-color:purple;
+     }
+  </style>
+</head>
+<body>
+  <div id="container">
+     <div class="item">1</div>
+    <div class="item" style="grid-row:1/5;">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+    <div class="item">7</div>
+    <div class="item">8</div>
+   </body>
+</html>

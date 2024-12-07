@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Css emojis</title>
+  <style>
+    h1{
+      border:3px solid red;
+        color:blue;
+       text-shadow:5px 5px 8px black;
+    }
+   .set{
+      color:red;
+     text-shadow:5px 5px 7px black;
+   }
+      .set::before{
+        content:"\1F600";
+      }
+      .set::after{
+        content:"\1F609";
+      }
+  </style>
+</head>
+<body>
+  <div class="content">
+  <h1>Hello Welcome to my site :- </h1>
+  <p class="set"><b>Thanks for Coming</p></b>
+</div>
+</body>
+</html>
